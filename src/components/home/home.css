@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.headerTxt {
+  position: absolute;
+  width: 1173px;
+  height: 224px;
+  left: 426px;
+  top: 15px;
+}
+
+.headerTxt p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 112px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 14px rgba(0, 0, 0, 0.77);
+}
+
+.font-face-mff {
+  font-family: "MonsterFriendFore";
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+}
+
+.sketch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: 473px;
+  height: 304px;
+  left: 392px;
+  top: 496px;
+  filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.25));
+  border-radius: 28px;
+}
+
+.voxelArt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: 473px;
+  height: 304px;
+  left: 1148px;
+  top: 497px;
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+  border-radius: 28px;
+}
+
+.optionTxt {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.58);
+}

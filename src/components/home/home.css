@@ -52,9 +52,11 @@
 
 .homeWrapper .options .sketch img {
   width: 100%;
+  cursor: pointer;
 }
 
 .homeWrapper .options .voxelArt img {
   width: 100%;
+  cursor: pointer;
 }
 /*# sourceMappingURL=home.css.map */

@@ -1,11 +1,22 @@
 .footer {
-  position: fixed;
-  display: inline;
-  margin : 10px;
-  right : 20px;
-  bottom : 10px;
-  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 20px;
+  position: -webkit-sticky;
+  position: sticky;
 }
-.footer img{
-  margin-inline: 10px;
+
+.footer img {
+  padding: 20px;
+  cursor: pointer;
 }
+/*# sourceMappingURL=footer.css.map */

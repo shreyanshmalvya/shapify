@@ -5,8 +5,10 @@ const PF = process.env.REACT_APP_PUBLIC_FOLDER;
 
 const Home = () => {
     return (
-        <div>
-            <div className='headerTxt'><p>WELCOME TO SHAPIFY</p></div><br />
+        <div className='homeWrapper'>
+            <div className='headerWrapper'>
+            <div className='headerTxt'>WELCOME TO SHAPIFY</div>
+            </div>
             <div className='options'>
                 <div className='sketch'>
                     <img src={PF + 'sketch.png'} alt='Sketch' />

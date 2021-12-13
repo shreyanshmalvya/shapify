@@ -1,70 +1,60 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-
-.headerTxt {
-  position: absolute;
-  width: 1173px;
-  height: 224px;
-  left: 426px;
-  top: 15px;
+@font-face {
+  font-family: "monsterfriend";
+  src: url("../../fonts/MonsterFriendFore.otf");
 }
 
-.headerTxt p {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: normal;
+.homeWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homeWrapper .headerWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homeWrapper .headerWrapper .headerTxt {
   font-size: 96px;
-  line-height: 112px;
-  text-align: center;
-  letter-spacing: 0.03em;
-
   color: #ffffff;
-
+  text-align: center;
+  max-width: 1100px;
+  letter-spacing: 0.03em;
+  font-family: 'monsterfriend';
   text-shadow: 0px 4px 14px rgba(0, 0, 0, 0.77);
 }
 
-.font-face-mff {
-  font-family: "MonsterFriendFore";
-}
-
-.options {
+.homeWrapper .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  -webkit-box-pack: space-evenly !important;
+      -ms-flex-pack: space-evenly !important;
+          justify-content: space-evenly !important;
 }
 
-.sketch {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: absolute;
-  width: 473px;
-  height: 304px;
-  left: 392px;
-  top: 496px;
-  filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.25));
-  border-radius: 28px;
+.homeWrapper .options .sketch img {
+  width: 100%;
 }
 
-.voxelArt {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: absolute;
-  width: 473px;
-  height: 304px;
-  left: 1148px;
-  top: 497px;
-  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
-  border-radius: 28px;
+.homeWrapper .options .voxelArt img {
+  width: 100%;
 }
-
-.optionTxt {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 44px;
-
-  color: #ffffff;
-
-  text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.58);
-}
+/*# sourceMappingURL=home.css.map */

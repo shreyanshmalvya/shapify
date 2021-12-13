@@ -1,23 +1,14 @@
 import React from 'react'
-import Box from '@material-ui/core/Box';
+
 const PF = process.env.REACT_APP_PUBLIC_FOLDER;
 
 const OpenFile = () => {
   return (
-    <div className= "">
-    <Box 
-    border={1}
-    borderColor="red"
-    height={300}
-    width={300}
-    display="flex"
-    justifyContent="center" 
-    alignItems="center"
-    bgcolor="white" 
-    color="black">
-        choose an image to upload
-    </Box>
-    </div >
+    <div style="height:0;width:20%;padding-bottom:20%;background-color:white">
+<div>
+<img src = {PF + 'add.svg'} alt = "add" />
+</div>
+</div>
   )
 }
 

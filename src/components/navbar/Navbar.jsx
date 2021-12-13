@@ -1,19 +1,25 @@
 import React from 'react'
+import './navbar.css'
 const PF = process.env.REACT_APP_PUBLIC_FOLDER
 
 const Navbar = () => {
     return (
-        <div>
-            <div class="flex-container ">
-                <div><img src={PF + 'logo.png'} alt="Shapify logo"/></div>
+        <div className='navbarWrapper'>
+            <div className="logoWrapper">
                 <div>
-                    <div><img src={PF + 'home.svg'} alt="Home" /></div>
-                    <div><img src={PF + 'openfile.svg'} alt="File Upload" /></div>
-                    <div><img src={PF + 'cart.svg'} alt="Repo" /></div >
-                    <div><img src={PF + 'save.svg'} alt="Favourites" /></div>
+                    <img src={PF + 'logo.png'} alt='logo' />
                 </div>
             </div>
+            <div className="navabar">
+                <ul className='navbarElements'>
+                    <li><img src={PF + 'home.svg'} alt='Home' /></li>
+                    <li><img src={PF + 'openFile.svg'} alt='OpenFiles' /></li>
+                    <li><img src={PF + 'cart.svg'} alt='Bookmarks' /></li>
+                    <li><img src={PF + 'save.svg'} alt='Collections' /></li>
+                </ul>
+            </div>
         </div>
-)}
+    )
+}
 
 export default Navbar;

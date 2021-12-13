@@ -1,33 +1,60 @@
-ul{
-  list-style-type: none;
-  padding: 0%;
+.navbarWrapper {
+  overflow-x: hidden;
 }
 
-.flex-container{
-  background-color: #1b1b24;
-   color: white;
-   width: 100px;
-   height: 100vh;
-   display:flex;
-   flex-direction: column;
-   justify-content: center;
-   padding: 0; margin: 0;
- }
-
- .flex-container :first-child{
-  margin-top: 5px;
-  justify-content: flex-start;
- }
-
- #logo{
-  width: 6rem;
-  margin-top: 5px;
-  ;
-} 
- .flexdiv{
+.logoWrapper {
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
   width: 100px;
-  margin: 0px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 10px;
- }
+  padding: 1px;
+  border-radius: 10px;
+  background-color: #1B1B24;
+}
+
+.logoWrapper div img {
+  width: 100px;
+  padding: 20px 2px;
+  margin-left: -2px;
+}
+
+.navabar {
+  background-color: #1B1B24;
+}
+
+.navabar ul {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navabar .navbarElements {
+  top: 52%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  z-index: 999;
+}
+
+.navabar .navbarElements li {
+  padding: 20px 10px 30px 30px;
+}
+
+.navabar .navbarElements li:nth-child(2) {
+  margin-left: 4px;
+}
+/*# sourceMappingURL=navbar.css.map */

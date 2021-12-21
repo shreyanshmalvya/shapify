@@ -11,6 +11,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: calc(100vh - 79px);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
